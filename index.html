@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./css/styles.css" />
+		<title>Інвестувати проще</title>
+	</head>
+	<body id="home">
+		<header class="header">
+			<div class="container">
+				<div class="flex">
+					<div class="logo__container">
+						<img
+							class="logo"
+							src="./images/logo.svg"
+							alt="logo" />
+					</div>
+					<nav class="navigation">
+						<a
+							class="navigation__link"
+							href="#about"
+							>Про нас</a
+						>
+						<a
+							class="navigation__link"
+							href="#benefits"
+							>Переваги</a
+						>
+						<a
+							class="navigation__link"
+							href="#calc"
+							>Калькулятор прибутку</a
+						>
+						<a
+							class="btn"
+							href="#hero"
+							>Розрахувати прибуток</a
+						>
+						<a
+							class="btn btn__mobile"
+							href="#menu">
+							<svg
+								width="14"
+								height="10"
+								viewBox="0 0 14 10"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1 0H6C6.26522 0 6.51957 0.105357 6.70711 0.292893C6.89464 0.48043 7 0.734784 7 1C7 1.26522 6.89464 1.51957 6.70711 1.70711C6.51957 1.89464 6.26522 2 6 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0ZM8 8H13C13.2652 8 13.5196 8.10536 13.7071 8.29289C13.8946 8.48043 14 8.73478 14 9C14 9.26522 13.8946 9.51957 13.7071 9.70711C13.5196 9.89464 13.2652 10 13 10H8C7.73478 10 7.48043 9.89464 7.29289 9.70711C7.10536 9.51957 7 9.26522 7 9C7 8.73478 7.10536 8.48043 7.29289 8.29289C7.48043 8.10536 7.73478 8 8 8ZM1 4H13C13.2652 4 13.5196 4.10536 13.7071 4.29289C13.8946 4.48043 14 4.73478 14 5C14 5.26522 13.8946 5.51957 13.7071 5.70711C13.5196 5.89464 13.2652 6 13 6H1C0.734784 6 0.48043 5.89464 0.292893 5.70711C0.105357 5.51957 0 5.26522 0 5C0 4.73478 0.105357 4.48043 0.292893 4.29289C0.48043 4.10536 0.734784 4 1 4Z"
+									fill="white" />
+							</svg>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div
+			id="menu"
+			class="mobile__menu">
+			<div class="mobile__menu--top flex">
+				<div class="logo__container">
+					<img
+						class="logo"
+						src="./images/logo.svg"
+						alt="logo" />
+				</div>
+				<a href="#home">
+					<img
+						src="./images/icon-close.png"
+						alt="close" />
+				</a>
+			</div>
+			<div class="mobile__menu--bottom">
+				<nav class="navigation">
+					<a
+						class="navigation__link"
+						href="#about"
+						>Про нас</a
+					>
+					<a
+						class="navigation__link"
+						href="#benefits"
+						>Переваги</a
+					>
+					<a
+						class="navigation__link"
+						href="#calc"
+						>Калькулятор прибутку</a
+					>
+					<a
+						class="navigation__link"
+						href="#hero"
+						>Розрахувати прибуток</a
+					>
+				</nav>
+			</div>
+		</div>
+
+		<section
+			id="hero"
+			class="hero">
+			<div class="container">
+				<div class="flex">
+					<div class="hero__left flex flex-column">
+						<div class="hero__left--text">
+							<h1 class="h1">
+								Інвестувати
+								<span class="icon-ribbon">
+									<svg
+										width="20"
+										height="20"
+										viewBox="0 0 20 20"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4 7C4 8.5913 4.63214 10.1174 5.75736 11.2426C6.88258 12.3679 8.4087 13 10 13C11.5913 13 13.1174 12.3679 14.2426 11.2426C15.3679 10.1174 16 8.5913 16 7C16 5.4087 15.3679 3.88258 14.2426 2.75736C13.1174 1.63214 11.5913 1 10 1C8.4087 1 6.88258 1.63214 5.75736 2.75736C4.63214 3.88258 4 5.4087 4 7Z"
+											stroke="white"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path
+											d="M10 13L13.4 18.89L14.998 15.657L18.596 15.889L15.196 10M4.802 10L1.402 15.89L5 15.657L6.598 18.889L9.998 13"
+											stroke="white"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</span>
+								проще, ніж здається!
+							</h1>
+							<p class="text">
+								Кожен клієнт має доступ до нової інвестиційної платформи з
+								можливістю отримання доходу. Будь ласка, пройдіть просту
+								реєстрацію на сайті, а також ознайомтеся з інформацією нижче,
+								щоб дізнатися, як підвищити свій дохід лише за кілька кроків!
+							</p>
+						</div>
+						<div class="hero__left--stats">
+							<ul class="stats__list flex">
+								<li>
+									<h2 class="h2">75+</h2>
+									<p class="text">Клієнтів</p>
+								</li>
+								<li>
+									<h2 class="h2">4.9</h2>
+									<p class="text">Рейтинг Довіри</p>
+								</li>
+								<li>
+									<h2 class="h2">100</h2>
+									<p class="text">Інвестицій</p>
+								</li>
+							</ul>
+							<div class="hero__left--bg"></div>
+						</div>
+					</div>
+
+					<div class="hero__right">
+						<form
+							class="hero__form flex flex-column"
+							action="">
+							<h4 class="h4">Почніть зараз</h4>
+							<label for="user_name">
+								<span>Ім'я<sup>*</sup></span>
+								<input
+									type="text"
+									name="name"
+									id="user_name"
+									placeholder="Ваше ім'я" />
+							</label>
+							<label for="user_surname">
+								<span>Прізвище<sup>*</sup></span>
+
+								<input
+									type="text"
+									name="surname"
+									id="user_surname"
+									placeholder="Ваше прізвище" />
+							</label>
+							<label for="user_phone">
+								<span>Номер телефону<sup>*</sup></span>
+								<input
+									type="tel"
+									name="phone"
+									id="user_phone"
+									placeholder="+3 (__) ___ - __ - __" />
+							</label>
+							<label for="user_email">
+								<span>Електронна пошта</span>
+								<input
+									type="email"
+									name="email"
+									id="user_email"
+									placeholder="Введіть вашу пошту" />
+							</label>
+							<button
+								class="btn"
+								type="submit">
+								Відправити
+							</button>
+						</form>
+						<img
+							class="hero__person-img"
+							src="./images/hero.png"
+							alt="hero" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="about"
+			class="about">
+			<div class="container">
+				<h2 class="h2 text-center">Про нас</h2>
+
+				<div class="flex">
+					<div class="about__left flex flex-column">
+						<div class="about__left--item flex">
+							<div class="about__item--text">
+								<h5 class="h5">
+									Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя
+								</h5>
+								<p class="text">
+									Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI
+									сторіччя, коли невідомий друкар взяв шрифтову гранку та склав
+									на ній підбірку зразків шрифтів. "Риба" не тільки успішно
+									пережила п'ять століть, але й прижилася в електронному
+									верстуванні, залишаючись по суті незмінною.
+								</p>
+							</div>
+							<div class="about__item--img">
+								<img
+									src="./images/abstract_green.png"
+									alt="abstract_green" />
+							</div>
+						</div>
+
+						<div class="about__left--item flex">
+							<div class="about__item--text">
+								<h5 class="h5">
+									Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя
+								</h5>
+								<p class="text">
+									Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI
+									сторіччя, коли невідомий друкар взяв шрифтову гранку та склав
+									на ній підбірку зразків шрифтів. "Риба" не тільки успішно
+									пережила п'ять століть, але й прижилася в електронному
+									верстуванні, залишаючись по суті незмінною.
+								</p>
+							</div>
+							<div class="about__item--img">
+								<img
+									src="./images/runner.png"
+									alt="runner" />
+							</div>
+						</div>
+					</div>
+					<div class="about__right flex flex-column">
+						<img
+							src="./images/brain_green.png"
+							alt="" />
+						<h5 class="h5">
+							Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя
+						</h5>
+						<p class="text">
+							Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя,
+							коли невідомий друкар взяв шрифтову гранку та склав на ній
+							підбірку зразків шрифтів.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="benefits"
+			class="benefits">
+			<div class="container">
+				<div class="benefits__heading flex">
+					<h2 class="h2">Переваги</h2>
+					<a
+						class="btn"
+						href="#"
+						>Вкластися зараз</a
+					>
+				</div>
+
+				<div class="benefits__items flex">
+					<div class="benefits__item">
+						<div class="benefits__item--img">
+							<img
+								src="./images/benefits_abstract_green_01.png"
+								alt="" />
+						</div>
+						<h5 class="h5">Lorem Ipsum</h5>
+						<p class="text">Дата виплати - 05.06.2024</p>
+					</div>
+					<div class="benefits__item">
+						<div class="benefits__item--img">
+							<img
+								src="./images/benefits_abstract_green_02.png"
+								alt="" />
+						</div>
+						<h5 class="h5">Lorem Ipsum</h5>
+						<p class="text">Дата виплати - 05.06.2024</p>
+					</div>
+					<div class="benefits__item">
+						<div class="benefits__item--img">
+							<img
+								src="./images/benefits_abstract_green_03.png"
+								alt="" />
+						</div>
+						<h5 class="h5">Lorem Ipsum</h5>
+						<p class="text">Дата виплати - 05.06.2024</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="calc"
+			class="calc">
+			<div class="container">
+				<div class="flex calc-wrapper">
+					<div class="calc__info flex flex-column">
+						<p class="text">Виплата від інвестицій</p>
+						<h1 class="h1">100 000</h1>
+						<div class="calc__bonus flex">
+							<p class="text">
+								Нарахуємо бонусів <br />
+								за весь період
+							</p>
+							<h2 class="h2">12 879</h2>
+						</div>
+						<a
+							class="btn"
+							href="#"
+							>Розпочати Інвестувати</a
+						>
+					</div>
+					<div class="calc__profit">
+						<h2 class="h2">Розрахуйте свій прибуток</h2>
+						<div class="profit__slider">
+							<div class="profit__slider--heading flex">
+								<h5 class="h5">Сума інвестицій</h5>
+								<span class="profit__slider--sum">29 565</span>
+							</div>
+							<div class="profit__slider--gradient">
+								<input
+									class="input-range input-range__invest"
+									type="range"
+									name="invest"
+									id="rangeInvest"
+									min="5000"
+									max="50000"
+									step="10" />
+							</div>
+							<div class="profit__slider--heading flex">
+								<span>5 000</span>
+								<span>20 000</span>
+								<span>35 000</span>
+								<span>50 000</span>
+							</div>
+						</div>
+						<div class="profit__slider">
+							<div class="profit__slider--heading flex">
+								<h5 class="h5">Сума прибутку</h5>
+								<span class="profit__slider--sum">96 123</span>
+							</div>
+							<div class="profit__slider--gradient">
+								<input
+									class="input-range input-range__profit"
+									type="range"
+									name="profit"
+									id="rangeProfit"
+									min="35000"
+									max="210000"
+									step="10" />
+							</div>
+
+							<div class="profit__slider--heading flex">
+								<span>35 000</span>
+								<span>95 000</span>
+								<span>150 000</span>
+								<span>210 000</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__navigation">
+					<div class="flex">
+						<div class="logo__container">
+							<img
+								class="logo"
+								src="./images/logo.svg"
+								alt="logo" />
+						</div>
+						<nav class="navigation">
+							<a
+								class="navigation__link"
+								href="#about"
+								>Про нас</a
+							>
+							<a
+								class="navigation__link"
+								href="#benefits"
+								>Переваги</a
+							>
+							<a
+								class="navigation__link"
+								href="#calc"
+								>Калькулятор прибутку</a
+							>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyright">
+				<div class="container">
+					<div class="footer__copyright--content flex flex-column">
+						<p class="text border">
+							Lorem Ipsum - це текст-"риба", що використовується в
+							<br />друкарстві та дизайні
+						</p>
+						<p class="text">
+							Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя,
+							коли невідомий друкар взяв шрифтову гранку та склав на ній
+							підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять
+							століть, але й прижилася в електронному верстуванні, залишаючись
+							по суті незмінною. Вона популяризувалась в 60-их роках минулого
+							сторіччя завдяки виданню зразків шрифтів Letraset, які містили
+							уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам
+							комп'ютерного верстування на кшталт Aldus Pagemaker, які
+							використовували різні версії Lorem Ipsum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/script.js"></script>
+</html>

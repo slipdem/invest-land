@@ -41,21 +41,21 @@
 							href="#hero"
 							>Розрахувати прибуток</a
 						>
-						<a
-							class="btn btn__mobile"
-							href="#menu">
-							<svg
-								width="14"
-								height="10"
-								viewBox="0 0 14 10"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M1 0H6C6.26522 0 6.51957 0.105357 6.70711 0.292893C6.89464 0.48043 7 0.734784 7 1C7 1.26522 6.89464 1.51957 6.70711 1.70711C6.51957 1.89464 6.26522 2 6 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0ZM8 8H13C13.2652 8 13.5196 8.10536 13.7071 8.29289C13.8946 8.48043 14 8.73478 14 9C14 9.26522 13.8946 9.51957 13.7071 9.70711C13.5196 9.89464 13.2652 10 13 10H8C7.73478 10 7.48043 9.89464 7.29289 9.70711C7.10536 9.51957 7 9.26522 7 9C7 8.73478 7.10536 8.48043 7.29289 8.29289C7.48043 8.10536 7.73478 8 8 8ZM1 4H13C13.2652 4 13.5196 4.10536 13.7071 4.29289C13.8946 4.48043 14 4.73478 14 5C14 5.26522 13.8946 5.51957 13.7071 5.70711C13.5196 5.89464 13.2652 6 13 6H1C0.734784 6 0.48043 5.89464 0.292893 5.70711C0.105357 5.51957 0 5.26522 0 5C0 4.73478 0.105357 4.48043 0.292893 4.29289C0.48043 4.10536 0.734784 4 1 4Z"
-									fill="white" />
-							</svg>
-						</a>
 					</nav>
+					<a
+						class="btn btn__mobile"
+						href="#menu">
+						<svg
+							width="14"
+							height="10"
+							viewBox="0 0 14 10"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1 0H6C6.26522 0 6.51957 0.105357 6.70711 0.292893C6.89464 0.48043 7 0.734784 7 1C7 1.26522 6.89464 1.51957 6.70711 1.70711C6.51957 1.89464 6.26522 2 6 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0ZM8 8H13C13.2652 8 13.5196 8.10536 13.7071 8.29289C13.8946 8.48043 14 8.73478 14 9C14 9.26522 13.8946 9.51957 13.7071 9.70711C13.5196 9.89464 13.2652 10 13 10H8C7.73478 10 7.48043 9.89464 7.29289 9.70711C7.10536 9.51957 7 9.26522 7 9C7 8.73478 7.10536 8.48043 7.29289 8.29289C7.48043 8.10536 7.73478 8 8 8ZM1 4H13C13.2652 4 13.5196 4.10536 13.7071 4.29289C13.8946 4.48043 14 4.73478 14 5C14 5.26522 13.8946 5.51957 13.7071 5.70711C13.5196 5.89464 13.2652 6 13 6H1C0.734784 6 0.48043 5.89464 0.292893 5.70711C0.105357 5.51957 0 5.26522 0 5C0 4.73478 0.105357 4.48043 0.292893 4.29289C0.48043 4.10536 0.734784 4 1 4Z"
+								fill="white" />
+						</svg>
+					</a>
 				</div>
 			</div>
 		</header>
@@ -106,7 +106,7 @@
 			id="hero"
 			class="hero">
 			<div class="container">
-				<div class="flex">
+				<div class="flex hero__wrapper">
 					<div class="hero__left flex flex-column">
 						<div class="hero__left--text">
 							<h1 class="h1">
@@ -222,7 +222,7 @@
 			<div class="container">
 				<h2 class="h2 text-center">Про нас</h2>
 
-				<div class="flex">
+				<div class="flex about__wrapper">
 					<div class="about__left flex flex-column">
 						<div class="about__left--item flex">
 							<div class="about__item--text">
@@ -295,7 +295,7 @@
 				</div>
 
 				<div class="benefits__items flex">
-					<div class="benefits__item">
+					<div class="benefits__item active">
 						<div class="benefits__item--img">
 							<img
 								src="./images/benefits_abstract_green_01.webp"
@@ -323,6 +323,14 @@
 						<p class="text">Дата виплати - 05.06.2024</p>
 					</div>
 				</div>
+				<div class="benefits__mobile">
+					<div class="dots"></div>
+					<a
+						class="btn"
+						href="#"
+						>Вкластися зараз</a
+					>
+				</div>
 			</div>
 		</section>
 
@@ -330,7 +338,7 @@
 			id="calc"
 			class="calc">
 			<div class="container">
-				<div class="flex calc-wrapper">
+				<div class="flex calc__wrapper">
 					<div class="calc__info flex flex-column">
 						<p class="text">Виплата від інвестицій</p>
 						<h1 class="h1">100 000</h1>
@@ -365,7 +373,7 @@
 									value="27500"
 									step="10" />
 							</div>
-							<div class="profit__slider--heading flex">
+							<div class="profit__slider--bottom flex">
 								<span>5 000</span>
 								<span>20 000</span>
 								<span>35 000</span>
@@ -389,7 +397,7 @@
 									step="10" />
 							</div>
 
-							<div class="profit__slider--heading flex">
+							<div class="profit__slider--bottom flex">
 								<span>35 000</span>
 								<span>95 000</span>
 								<span>150 000</span>
@@ -403,32 +411,30 @@
 
 		<footer class="footer">
 			<div class="container">
-				<div class="footer__navigation">
-					<div class="flex">
-						<div class="logo__container">
-							<img
-								class="logo"
-								src="./images/logo.svg"
-								alt="logo" />
-						</div>
-						<nav class="navigation">
-							<a
-								class="navigation__link"
-								href="#about"
-								>Про нас</a
-							>
-							<a
-								class="navigation__link"
-								href="#benefits"
-								>Переваги</a
-							>
-							<a
-								class="navigation__link"
-								href="#calc"
-								>Калькулятор прибутку</a
-							>
-						</nav>
+				<div class="footer__navigation flex">
+					<div class="logo__container">
+						<img
+							class="logo"
+							src="./images/logo.svg"
+							alt="logo" />
 					</div>
+					<nav class="navigation">
+						<a
+							class="navigation__link"
+							href="#about"
+							>Про нас</a
+						>
+						<a
+							class="navigation__link"
+							href="#benefits"
+							>Переваги</a
+						>
+						<a
+							class="navigation__link"
+							href="#calc"
+							>Калькулятор прибутку</a
+						>
+					</nav>
 				</div>
 			</div>
 			<div class="footer__copyright">
@@ -438,6 +444,7 @@
 							Lorem Ipsum - це текст-"риба", що використовується в
 							<br />друкарстві та дизайні
 						</p>
+						<hr class='footer__hr'>
 						<p class="text">
 							Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя,
 							коли невідомий друкар взяв шрифтову гранку та склав на ній

@@ -294,9 +294,6 @@ a {
 	.mobile__menu {
 		padding: 48px;
 	}
-	.mobile__menu--bottom .navigation__link {
-		/* font-size: 28px; */
-	}
 }
 
 /* #endregion mobile menu */
@@ -970,9 +967,6 @@ input[type='range'] {
 
 	.footer__copyright {
 		padding-bottom: 69px;
-	}
-
-	.footer__copyright--content .text.border {
 	}
 
 	.footer__copyright--content .text br {
